@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin"
+    android:background="@drawable/fintrack11">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="921dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <TextView
+            android:id="@+id/finetrackTV2"
+            android:layout_width="251dp"
+            android:layout_height="88dp"
+            android:fontFamily="@font/agbalumo"
+            android:text="@string/finetrackTV"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:translationX="80dp"
+            android:translationY="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.082" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="750dp"
+            android:translationY="85dp"
+            app:srcCompat="@drawable/rectangle3" />
+
+        <ImageView
+            android:id="@+id/btnmenu"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:translationX="10dp"
+            android:translationY="-800dp"
+            app:srcCompat="@drawable/backicon" />
+
+        <TextView
+            android:id="@+id/tvsetting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/bodoni_moda"
+            android:text="@string/signin"
+            android:textAlignment="center"
+            android:textColor="@color/green"
+            android:textSize="34sp"
+            android:translationY="-690dp" />
+
+        <EditText
+            android:id="@+id/edtemailin"
+            android:layout_width="350sp"
+            android:layout_height="50dp"
+            android:background="@drawable/text_edit_bg"
+            android:backgroundTint="@color/gray"
+            android:ems="10"
+            android:hint="@string/edtemailin"
+            android:inputType="text"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:textSize="20sp"
+            android:translationX="30sp"
+            android:translationY="-660dp"
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/edtpasswordin"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/edtpasswordin"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:translationX="30sp"
+            android:translationY="-630dp"
+            tools:ignore="TextFields"
+            android:background="@drawable/text_edit_bg"
+            android:backgroundTint="@color/gray"/>
+
+        <Button
+            android:id="@+id/btnsignin"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/green2"
+            android:text="@string/btnsignin"
+            android:translationY="150dp" />
+
+        <TextView
+            android:id="@+id/tvsignin"
+            android:layout_width="350sp"
+            android:layout_height="50dp"
+            android:hint="@string/tvsignin"
+            android:textSize="20sp"
+            android:translationX="30sp"
+            android:translationY="-580dp" />
+
+        <TextView
+            android:id="@+id/tvsignup"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/signup"
+            android:textColor="@color/green2"
+            android:textSize="20sp"
+            android:translationX="230dp"
+            android:translationY="-630dp" />
+
+        <Button
+            android:id="@+id/btnSignin"
+            android:layout_width="230dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/green2"
+            android:gravity="center"
+            android:text="@string/btnSignin"
+            android:translationX="90dp"
+            android:translationY="-450dp"
+            tools:layout_editor_absoluteX="104dp"
+            tools:layout_editor_absoluteY="732dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

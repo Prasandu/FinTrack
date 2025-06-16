@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+        <style name="CustomDatePickerTheme" parent="Theme.MaterialComponents.Light.Dialog">
+            <!-- Background and primary colors -->
+            <item name="colorPrimary">@color/green2</item>
+            <item name="colorPrimaryVariant">@color/green2</item>
+            <item name="colorAccent">@color/green2</item>
+
+            <item name="android:textColorPrimary">@color/black</item>
+            <item name="android:textColor">@color/black</item>
+        </style>
+
+
+        <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+            <item name="android:windowTranslucentStatus">true</item>
+            <item name="android:windowTranslucentNavigation">false</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+            <item name="android:windowLightStatusBar">false</item>
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+        </style>
+
+
+        <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+            <item name="color">@color/white</item>
+        </style>
+
+
+    <style name="FinTrackAlertDialog" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">FinTrack</string>
+
+    <string name="finetrackTV">FinTrack</string>
+    <string name="btnContinue">Continue</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnSignin">Signin</string>
+
+    <string name="tvname">Prasandu</string>
+    <string name="tvAvailabaleBalance">Available Balance</string>
+    <string name="availableBalance">Rs.750 000.00</string>
+    <string name="tvSeeDetails">See Details</string>
+    <string name="tvMonthlySalary">Monthly Budget</string>
+    <string name="monthlySalary">Rs.30 000.00</string>
+    <string name="tvIncome">Income</string>
+    <string name="income">Rs.20 000.00</string>
+    <string name="tvExpense">Expense</string>
+    <string name="expense">Rs.10 000.00</string>
+    <string name="tvwelcome">Welcome</string>
+    <string name="tvTransactions">Transactions</string>
+
+
+    <string name="tvAddMonthlySalary">Change Monthly Budget</string>
+    <string name="addMonthlySalary">Enter Current Monthly Salary</string>
+    <string name="btnSubmitMonthlySalary">Done</string>
+
+
+    <string name="tvTransactionHistory">Transaction History</string>
+    <string name="tvTitle1">Transport</string>
+    <string name="tvTitle2">Food</string>
+    <string name="tvTitle3">Accommodation</string>
+    <string name="tvAmount1">Rs.10 000.00</string>
+    <string name="tvAmount2">Rs.5 000.00</string>
+    <string name="tvAmount3">Rs.15 000.00</string>
+    <string name="tvDate1">2025.04.07</string>
+    <string name="tvDate2">2025.04.07</string>
+    <string name="tvDate3">2025.04.08</string>
+    <string name="typeIncome">Income</string>
+    <string name="typeExpense">Expense</string>
+
+
+    <string name="tvAddTransaction">Add Transaction</string>
+    <string name="addTitle">Enter Title</string>
+    <string name="addAmount">Enter Amount</string>
+    <string name="addDate">Select Date</string>
+    <string name="selectIncome">Income</string>
+    <string name="selectExpense">Expense</string>
+    <string name="btnAdd">Add</string>
+
+
+    <string name="account">Account</string>
+
+
+    <string name="repassword">Confirm Password</string>
+    <string name="already">Already Have Account ?</string>
+    <string name="signin">Sign in</string>
+    <string name="btnsignin">Sign in</string>
+    <string name="tvsignin">Don\'t Have Account ?</string>
+    <string name="signup">Sign up</string>
+    <string name="tvsignup">Sign Up</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btnsignup">Sign Up</string>
+    <string name="edtemailin">Enter Email</string>
+    <string name="edtpasswordin">Enter Password</string>
+
+    <string name="edtName">Enter Name</string>
+    <string name="edtEmail">Enter Email</string>
+    <string name="edtMobile">Enter Mobile</string>
+    <string name="edtPassword">Enter Password</string>
+    <string name="edtRePassword">Re Enter Password</string>
+
+
+    <string name="ptname">  L K P Yasith</string>
+    <string name="name">Name</string>
+    <string name="ptmobile">  076 5553335</string>
+    <string name="mobile">Mobile</string>
+    <string name="ptemail">abc@gmail.com</string>
+    <string name="email">Email</string>
+    <string name="ptpassword">*********</string>
+    <string name="password">Password</string>
+    <string name="btnlogout">Log out</string>
+
+
+    <string name="analysis">Analysis</string>
+
+
+    <string name="delete_transaction">Delete transaction</string>
+
+    <string name="select_category">Select Category</string>
+    <string name="food">Food</string>
+    <string name="transport">Transport</string>
+    <string name="bills">Bills</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="others">Others</string>
+
+
+
+    <string name="tvsetting">Setting</string>
+    <string name="backup_success">Backup completed successfully</string>
+    <string name="backup_failed">Backup failed</string>
+    <string name="restore_success">Restore completed successfully</string>
+    <string name="restore_failed">Restore failed</string>
+    <string name="no_backup_found">No backup files found</string>
+
+
+
+</resources>

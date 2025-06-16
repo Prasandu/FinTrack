@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre</item>
+        <item>@font/abyssinica_sil</item>
+        <item>@font/aclonica</item>
+        <item>@font/agbalumo</item>
+        <item>@font/amaranth</item>
+        <item>@font/andada_pro</item>
+        <item>@font/anta</item>
+        <item>@font/bodoni_moda</item>
+    </array>
+</resources>

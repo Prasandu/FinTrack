@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting"
+    android:background="@drawable/fintrack11">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="921dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+
+        <TextView
+            android:id="@+id/finetrackTV2"
+            android:layout_width="251dp"
+            android:layout_height="88dp"
+            android:fontFamily="@font/agbalumo"
+            android:text="@string/finetrackTV"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:translationX="80dp"
+            android:translationY="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.082" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="750dp"
+            android:translationY="85dp"
+            app:srcCompat="@drawable/rectangle3" />
+
+        <ImageView
+            android:id="@+id/btnmenu"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:translationX="10dp"
+            android:translationY="-800dp"
+            app:srcCompat="@drawable/backicon" />
+
+        <TextView
+            android:id="@+id/tvsetting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/bodoni_moda"
+            android:text="@string/tvsetting"
+            android:textAlignment="center"
+            android:textColor="@color/green"
+            android:textSize="34sp"
+            android:translationY="-690dp" />
+
+        <Button
+            android:id="@+id/btnBackup"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_button_green"
+            android:text="Backup Data"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:translationX="50dp"
+            android:translationY="-650dp"
+            android:backgroundTint="@color/green2"/>
+
+        <Button
+            android:id="@+id/btnRestore"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_button_green"
+            android:text="Restore Data"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:translationX="50dp"
+            android:translationY="-630dp"
+            android:backgroundTint="@color/green2"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightblue">#4CC9F0</color>
+    <color name="darkblue">#36454F</color>
+    <color name="green1">#3F704D</color>
+    <color name="green2">#498553</color>
+    <color name="green3">#E4FDE1</color>
+    <color name="gray">#E8E9EB</color>
+    <color name="blue">#0000FF</color>
+
+
+    <color name="income_green">#4CAF50</color>
+    <color name="expense_red">#F44336</color>
+
+    <color name="primaryDark">#6200EE</color>
+    <color name="primaryLight">#BB86FC</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+
+
+
+    <color name="light_gray">#F5F5F5</color>
+    <color name="dark_gray">#757575</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+
+
+</resources>
